@@ -1,4 +1,4 @@
-Tool Support for Grunddata Modelling Rules
+Støtte til grunddatamodellering
 ======
 Modelsekretariatet i grunddata-sekretariatet understøtter frembringelsen af den fælles grunddatamodel.
 
