@@ -1,5 +1,5 @@
 Grunddata-Modeltjekker
-######
+=====
 
 Når man laver datamodeller som skal optages i grunddatamodellen, skal man være opmærksom på Modelregler for grunddata.
 
