@@ -4,7 +4,7 @@ Modelsekretariatet i grunddata-sekretariatet understøtter frembringelsen af den
 
 Dette gøres dels ved at samarbejde med delprogrammernes arkitekter og modellører, dels ved at frembringe værktøj og andre ressourcer som kan bruges ved udformingen af modellerne.
 
-Af konkrete, anvendelige ressourcer findes indtil videre disse:
+Af konkrete, anvendelige ressourcer findes disse:
 
 * Grunddata modelregler
 * Grunddata UML-profilen
