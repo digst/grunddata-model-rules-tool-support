@@ -1,3 +1,6 @@
+Grunddata-projekt-filen 
+======
+
 Grunddata-projekt-filen (Grunddata-projekt.eap) er en Sparx Enterprise Architect projektfil, som kan bruges som udgangspunkt for et nyt grunddatamodelprojekt.
 
 Projektfilen indeholder MDG teknologien og pakker med eksisterende modeller
