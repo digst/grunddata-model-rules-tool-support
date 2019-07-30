@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<UMLProfile profiletype="uml2">
+	<Documentation id="D0878B1D-2" name="Grunddata" version="1.0" notes="Grunddata"/>
+	<Content>
+		<Stereotypes>
+			<Stereotype name="DKObjekttype" metatype="DKObjekttype" instanceType="DKObjekttype" notes="" bgcolor="-1" fontcolor="-1" bordercolor="-1" borderwidth="1" hideicon="0">
+				<Image type="EAShapeScript 1.0" xmlns:dt="urn:schemas-microsoft-com:datatypes" dt:dt="bin.base64">UEsDBBQAAAAIABp5jkZoPUEfRAIAAOoMAAAHABEAc3RyLmRhdFVUDQAHbS0tVW0tLVVtLS1V
+vVdNSwMxEJ2r/grxpKVFt9a2Il6UevILFDyrFSyUCqV6UPzvvsnsdLKbbNZdRRYzafIyk3kv
+meCUnumJXmlJD7SiGXoL2qJHesOvFW3SJ/426BrzMyAXGDPcCW3TFd2jPXaoWyBWdI7ZOb4z
+YObO8w4N8HUpozEdwvbpAL3d9Sr2uUR743y/AK9zl1j/Dq93sDvUcyu7sAMarjGnmP9wu1tG
+cWwPMMI2o1E+zm0fv1JeDNWFB945j+3DHrq2B2t5XGD1Yr3XcR5vH191DB+lPbbCUzzfCaJM
+I1wp7+FMWps+vIsqnC+3tuMm2ihb/US+PsrXRa2OD5I+DGWciT7MJ2sT10RUM8VC34owvVWR
+MLumOtSrwFkd5acta6XBT/kr3wJfA70z9Uoajq2eWWVMT3XVDZHbU9QrFsdQsjtTO5ZvM1Xk
+bqSVEV5YH+aJbRtljK26mmM4YbFoTbu6Cmg4481UElbLFaqskFUmv9LF4hWRfiSNHGOgrVp7
+1Em+SZN/e5NG+elM3TjDdMEB98eurh85RkboV681DO9Vzv3QMZrld4LrRlw/1oSjpe6XYXg/
+6pcjlvNqppUqVc3/37w7yk/qdBpG+ZdWRni2eq1hjB9RQZkTHaoUEI0EWx2liLMYEjHMsakW
+9Ur89u2RE1rHpZ16uQGig9yMtIaG0RMq3ITsFhWQzIoahd59lN0v0SDMrBn7//XGKEOpamIY
+VUBaGamrYorxK5DUH7/GFPkvV6jQryLUn/gOs2nDegcvBdsv/E/zDVBLAQIXCxQAAAAIABp5
+jkZoPUEfRAIAAOoMAAAHAAkAAAAAAAAAAAAAgAAAAABzdHIuZGF0VVQFAAdtLS1VUEsFBgAA
+AAABAAEAPgAAAHoCAAAAAA==</Image>
+				<AppliesTo>
+					<Apply type="Class">
+						<Property name="isActive" value=""/>
+						<Property name="_tagGroups" value="Grunddata-dokumentation - krævet,Grunddata-dokumentation - valgfri,Grunddata-andet"/>
+						<Property name="_tagGroupings" value="definition=Grunddata-dokumentation - krævet;note=Grunddata-dokumentation - valgfri;alternativtNavn=Grunddata-dokumentation - valgfri;lovgrundlag=Grunddata-dokumentation - valgfri;eksempel=Grunddata-dokumentation - valgfri"/>
+						<Property name="_tagGroupStates" value="Grunddata-dokumentation - krævet=open;Grunddata2=Grunddata-dokumentation - valgfri;Grunddata-andet=closed"/>
+					</Apply>
+				</AppliesTo>
+				<TaggedValues>
+					<Tag name="definition" type="" description="Objektets definition. Kort tekst, som entydigt beskriver objektet - kan også indeholde et afsnit med en længere beskrivelse, fx formål, referencer og kilde.&#xA;&#xA;SKOS ækvivalent:&#xA;skos:definition    &#xA;&#xA;Krav:&#xA;Krævet    " unit="" values="" default=""/>
+					<Tag name="note" type="" description="Uddybende beskrivelse af objektet&#xA;&#xA;SKOS ækvivalent:&#xA;skos:note" unit="" values="" default="&lt;memo&gt;"/>
+					<Tag name="alternativtNavn" type="" description="Andre navne, som objektet kan have&#xA;&#xA;SKOS ækvivalent:&#xA;skos:altLabel    " unit="" values="" default=""/>
+					<Tag name="lovgrundlag" type="" description="Angivelse af det lovgrundlag, som hjemler indsamlingen af data for objektet.&#xA;&#xA;SKOS ækvivalent:&#xA;- (mangler)" unit="" values="" default=""/>
+					<Tag name="eksempel" type="" description="Eksempler på anvendelse af objektet" unit="" values="" default="&lt;memo&gt;"/>
+				</TaggedValues>
+			</Stereotype>
+			<Stereotype name="DKEnumeration" metatype="DKEnumeration" instanceType="DKEnumeration" notes="" bgcolor="-1" fontcolor="-1" bordercolor="-1" borderwidth="1" hideicon="0">
+				<AppliesTo>
+					<Apply type="Enumeration">
+						<Property name="_tagGroups" value="Grunddata-dokumentation - krævet,Grunddata-dokumentation - valgfri,Grunddata-andet"/>
+						<Property name="_tagGroupings" value="vokabularium=Grunddata-dokumentation - krævet;definition=Grunddata-dokumentation - krævet;note=Grunddata-dokumentation - valgfri;alternativtNavn=Grunddata-dokumentation - valgfri;lovgrundlag=Grunddata-dokumentation - valgfri;eksempel=Grunddata-dokumentation - valgfri"/>
+						<Property name="_tagGroupStates" value="Grunddata-dokumentation - krævet=open;Grunddata2=Grunddata-dokumentation - valgfri;Grunddata-andet=closed"/>
+					</Apply>
+				</AppliesTo>
+				<TaggedValues>
+					<Tag name="definition" type="" description="Udfaldsrummets definition. Kort tekst, som entydigt beskriver udfaldsrummet - kan også indeholde et afsnit med en længere beskrivelse, fx formål, referencer og kilde.&#xA;&#xA;SKOS ækvivalent:&#xA;skos:definition    &#xA;&#xA;Krav:&#xA;Krævet    " unit="" values="" default=""/>
+					<Tag name="note" type="" description="Uddybende beskrivelse af udfaldsrummet&#xA;&#xA;SKOS ækvivalent:&#xA;skos:note" unit="" values="" default="&lt;memo&gt;"/>
+					<Tag name="alternativtNavn" type="" description="Andre navne, som udfaldsrummet kan have&#xA;&#xA;SKOS ækvivalent:&#xA;skos:altLabel    " unit="" values="" default=""/>
+					<Tag name="lovgrundlag" type="" description="Angivelse af det lovgrundlag, som hjemler indsamlingen af data for udfaldsrummet&#xA;&#xA;SKOS ækvivalent:&#xA;- (mangler)" unit="" values="" default=""/>
+					<Tag name="eksempel" type="" description="Eksempler på anvendelse af udfaldsrummet" unit="" values="" default="&lt;memo&gt;"/>
+				</TaggedValues>
+			</Stereotype>
+			<Stereotype name="DKDatatype" metatype="DKDatatype" instanceType="DKDatatype" notes="" bgcolor="-1" fontcolor="-1" bordercolor="-1" borderwidth="1" hideicon="0">
+				<AppliesTo>
+					<Apply type="DataType">
+						<Property name="_tagGroups" value="Grunddata-dokumentation - krævet,Grunddata-dokumentation - valgfri,Grunddata-andet"/>
+						<Property name="_tagGroupings" value="definition=Grunddata-dokumentation - krævet;note=Grunddata-dokumentation - valgfri;alternativtNavn=Grunddata-dokumentation - valgfri;lovgrundlag=Grunddata-dokumentation - valgfri;eksempel=Grunddata-dokumentation - valgfri"/>
+						<Property name="_tagGroupStates" value="Grunddata-dokumentation - krævet=open;Grunddata2=Grunddata-dokumentation - valgfri;Grunddata-andet=closed"/>
+					</Apply>
+				</AppliesTo>
+				<TaggedValues>
+					<Tag name="definition" type="" description="Datatypens definition. Kort tekst, som entydigt beskriver datatypen - kan også indeholde et afsnit med en længere beskrivelse, fx formål, referencer og kilde.&#xA;&#xA;SKOS ækvivalent:&#xA;skos:definition    &#xA;&#xA;Krav:&#xA;Krævet    " unit="" values="" default=""/>
+					<Tag name="note" type="" description="Uddybende beskrivelse af datatypen&#xA;&#xA;SKOS ækvivalent:&#xA;skos:note" unit="" values="" default="&lt;memo&gt;"/>
+					<Tag name="alternativtNavn" type="" description="Andre navne, som datatypenkan have&#xA;&#xA;SKOS ækvivalent:&#xA;skos:altLabel    " unit="" values="" default=""/>
+					<Tag name="lovgrundlag" type="" description="Angivelse af det lovgrundlag, som hjemler indsamlingen af data for datatypen&#xA;&#xA;SKOS ækvivalent:&#xA;- (mangler)" unit="" values="" default=""/>
+					<Tag name="eksempel" type="" description="Eksempler på anvendelse af datatypen" unit="" values="" default="&lt;memo&gt;"/>
+				</TaggedValues>
+			</Stereotype>
+			<Stereotype name="Registrering" metatype="Registrering" instanceType="Registrering" notes="Hjælpe-stereotype, som anvendes til gruppering og evt skjulning af attributter relateret til registrering" bgcolor="-1" fontcolor="-1" bordercolor="-1" borderwidth="-1" hideicon="0" generalizes="DKEgenskab" baseStereotypes="DKEgenskab"/>
+			<Stereotype name="Virkning" metatype="Virkning" instanceType="Virkning" notes="Hjælpe-stereotype, som anvendes til gruppering og evt skjulning af attributter relateret til virkning" bgcolor="-1" fontcolor="-1" bordercolor="-1" borderwidth="-1" hideicon="0" generalizes="DKEgenskab" baseStereotypes="DKEgenskab"/>
+			<Stereotype name="DKKodeliste" metatype="DKKodeliste" instanceType="DKKodeliste" notes="" bgcolor="-1" fontcolor="-1" bordercolor="-1" borderwidth="1" hideicon="0">
+				<AppliesTo>
+					<Apply type="Enumeration">
+						<Property name="_tagGroups" value="Grunddata-dokumentation - krævet,Grunddata-dokumentation - valgfri,Grunddata-andet"/>
+						<Property name="_tagGroupings" value="vokabularium=Grunddata-dokumentation - krævet;definition=Grunddata-dokumentation - krævet;note=Grunddata-dokumentation - valgfri;alternativtNavn=Grunddata-dokumentation - valgfri;lovgrundlag=Grunddata-dokumentation - valgfri;eksempel=Grunddata-dokumentation - valgfri"/>
+						<Property name="_tagGroupStates" value="Grunddata-dokumentation - krævet=open;Grunddata2=Grunddata-dokumentation - valgfri;Grunddata-andet=closed"/>
+					</Apply>
+				</AppliesTo>
+				<TaggedValues>
+					<Tag name="vokabularium" type="" description="Angivelse af, hvilken kodeliste, værdien findes i" unit="" values="" default=""/>
+					<Tag name="definition" type="" description="Udfaldsrummets definition. Kort tekst, som entydigt beskriver udfaldsrummet.&#xA;&#xA;SKOS ækvivalent:&#xA;skos:definition    &#xA;&#xA;Krav:&#xA;Krævet    " unit="" values="" default=""/>
+					<Tag name="note" type="" description="Uddybende beskrivelse af udfaldsrummet&#xA;&#xA;SKOS ækvivalent:&#xA;skos:note" unit="" values="" default="&lt;memo&gt;"/>
+					<Tag name="alternativtNavn" type="" description="Andre navne, som udfaldsrummet kan have&#xA;&#xA;SKOS ækvivalent:&#xA;skos:altLabel    " unit="" values="" default=""/>
+					<Tag name="lovgrundlag" type="" description="Angivelse af det lovgrundlag, som hjemler indsamlingen af data for udfaldsrummet&#xA;&#xA;SKOS ækvivalent:&#xA;- (mangler)" unit="" values="" default=""/>
+					<Tag name="eksempel" type="" description="Eksempler på anvendelse af udfaldsrummet" unit="" values="" default="&lt;memo&gt;"/>
+				</TaggedValues>
+			</Stereotype>
+			<Stereotype name="Identifikation" metatype="Identifikation" instanceType="Identifikation" notes="Hjælpe-stereotype, som anvendes til gruppering og evt skjulning af attributter relateret til Identifikation" bgcolor="-1" fontcolor="-1" bordercolor="-1" borderwidth="-1" hideicon="0" generalizes="DKEgenskab" baseStereotypes="DKEgenskab"/>
+			<Stereotype name="Status" metatype="Status" instanceType="Status" notes="Hjælpe-stereotype, som anvendes til gruppering og evt skjulning af attributter relateret til status" bgcolor="-1" fontcolor="-1" bordercolor="-1" borderwidth="-1" hideicon="0" generalizes="DKEgenskab" baseStereotypes="DKEgenskab"/>
+			<Stereotype name="DKEgenskab" metatype="DKEgenskab" instanceType="DKEgenskab" notes="" bgcolor="-1" fontcolor="-1" bordercolor="-1" borderwidth="-1" hideicon="0">
+				<AppliesTo>
+					<Apply type="Property">
+						<Property name="aggregation" value="none"/>
+						<Property name="default" value=""/>
+						<Property name="isComposite" value=""/>
+						<Property name="isDerived" value="false"/>
+						<Property name="isDerivedUnion" value="false"/>
+						<Property name="isID" value="false"/>
+						<Property name="isReadOnly" value="false"/>
+					</Apply>
+				</AppliesTo>
+				<TaggedValues>
+					<Tag name="definition" type="" description="Egenskabens definition. Kort tekst, som entydigt beskriver egenskaben - kan også indeholde et afsnit med en længere beskrivelse, fx formål, referencer og kilde.&#xA;&#xA;SKOS ækvivalent:&#xA;skos:definition    &#xA;&#xA;Krav:&#xA;Krævet    " unit="" values="" default=""/>
+					<Tag name="note" type="" description="Uddybende beskrivelse af egenskaben&#xA;&#xA;SKOS ækvivalent:&#xA;skos:note" unit="" values="" default="&lt;memo&gt;"/>
+					<Tag name="alternativtNavn" type="" description="Andre navne, som egenskaben kan have&#xA;&#xA;SKOS ækvivalent:&#xA;skos:altLabel    " unit="" values="" default=""/>
+					<Tag name="lovgrundlag" type="" description="Angivelse af det lovgrundlag, som hjemler indsamlingen af data for egenskaben&#xA;&#xA;SKOS ækvivalent:&#xA;- (mangler)" unit="" values="" default=""/>
+					<Tag name="eksempel" type="" description="Eksempler på anvendelse af egenskaben" unit="" values="" default="&lt;memo&gt;"/>
+				</TaggedValues>
+			</Stereotype>
+			<Stereotype name="DKDomænemodel" notes="" bgcolor="-1" fontcolor="-1" bordercolor="-1" borderwidth="1" hideicon="0">
+				<Image type="EAShapeScript 1.0" xmlns:dt="urn:schemas-microsoft-com:datatypes" dt:dt="bin.base64">UEsDBBQAAAAIABqAkkWM0g96eAEAAE4GAAAHABEAc3RyLmRhdFVUDQAHLfqSVC36klQt+pJU
+nVXLTsMwEJwrfAXiVKQc2iR9CXEBlRMvCX6gUKRWqoIUBQ4g/p2xV5tNauIQFNVOsrOz65nY
+3eAVL3hDiTUq7HhX4ATPeOdThWN88XeEe8Z3RBZ8Z7gLnOIOK47nHvVIRIVrRve8rojZe+YR
+cl4JJlhgyjlFxruzOstxlhwfPPeWeI3dMv+DrE+cR5gzKyFDXscvGfv0nZUBJsHM3y9YLcGS
+TwmjWSTXMK7XzPc6w9g/Tf2cs3fNv2FuUfc2YdxVG0f4DeP6UV5X8XBdKzJvftFDtQ0jcf1T
+covyThc3Wp9/11/1Me/CNRpG9ZdR3rhod65hTB9xQZUTH7ocEI8E212ljbMaUjFc41Av+p1I
+fZ05x4zVh/sgX2iflvbVyw4QH2RnxD00jH6hok2obtsBWVnbo5C9ibL9JR6EKxumvuyDuAOZ
+r+98cA64ebgDqlDsNDGMOiCjvOk7xRTTPIHk/GmeMW39D0+okFcRyifc4Wr+o/o3/zd+AFBL
+AQIXCxQAAAAIABqAkkWM0g96eAEAAE4GAAAHAAkAAAAAAAAAAAAAgAAAAABzdHIuZGF0VVQF
+AAct+pJUUEsFBgAAAAABAAEAPgAAAK4BAAAAAA==</Image>
+				<AppliesTo>
+					<Apply type="Package">
+						<Property name="URI" value=""/>
+					</Apply>
+				</AppliesTo>
+				<TaggedValues>
+					<Tag name="version" type="" description="Domænemodellens version - typisk af formen x.x" unit="" values="" default=""/>
+					<Tag name="status" type="enumeration" description="" unit="" values="Udvikling,Kandidat,Godkendt" default="Udvikling"/>
+					<Tag name="registermyndighed" type="URI" description="Angivelse af den myndighed, som har ansvar for det modellerede register - reference til myndighedsregisteret" unit="" values="" default=""/>
+					<Tag name="forvaltingsopgave" type="URI" description="Angivelse af den forvaltingsopgave, hvis data modelleres - reference til FORM" unit="" values="" default=""/>
+					<Tag name="modeldomæne" type="String" description="Angivelse af navnet på det forretnings- eller dataområde, som modelleres.&#xA;For eksempel Adresse, Person, Bygning" unit="" values="" default=""/>
+				</TaggedValues>
+			</Stereotype>
+			<Stereotype name="DKKlassifikation" metatype="DKKlassifikation" instanceType="DKKlassifikation" notes="" bgcolor="-1" fontcolor="-1" bordercolor="-1" borderwidth="1" hideicon="0">
+				<AppliesTo>
+					<Apply type="Enumeration">
+						<Property name="_tagGroups" value="Grunddata-dokumentation - krævet,Grunddata-dokumentation - valgfri,Grunddata-andet"/>
+						<Property name="_tagGroupings" value="vokabularium=Grunddata-dokumentation - krævet;definition=Grunddata-dokumentation - krævet;note=Grunddata-dokumentation - valgfri;alternativtNavn=Grunddata-dokumentation - valgfri;lovgrundlag=Grunddata-dokumentation - valgfri;eksempel=Grunddata-dokumentation - valgfri"/>
+						<Property name="_tagGroupStates" value="Grunddata-dokumentation - krævet=open;Grunddata2=Grunddata-dokumentation - valgfri;Grunddata-andet=closed"/>
+					</Apply>
+				</AppliesTo>
+				<TaggedValues>
+					<Tag name="vokabularium" type="" description="Angivelse af, hvilken klassifikation, værdien findes i" unit="" values="" default=""/>
+					<Tag name="definition" type="" description="Beskrivelse af den klassifikation, som elementet hentes i&#xA;&#xA;SKOS ækvivalent:&#xA;skos:definition    &#xA;&#xA;Krav:&#xA;Krævet    " unit="" values="" default=""/>
+					<Tag name="note" type="" description="Uddybende beskrivelse af klassifikationen&#xA;&#xA;SKOS ækvivalent:&#xA;skos:note" unit="" values="" default="&lt;memo&gt;"/>
+					<Tag name="alternativtNavn" type="" description="Andre navne, som klassifikatinen kan have&#xA;&#xA;SKOS ækvivalent:&#xA;skos:altLabel    " unit="" values="" default=""/>
+					<Tag name="lovgrundlag" type="" description="Angivelse af det lovgrundlag, som hjemler indsamlingen af data for klassifikationen&#xA;&#xA;SKOS ækvivalent:&#xA;- (mangler)" unit="" values="" default=""/>
+					<Tag name="eksempel" type="" description="Eksempler på anvendelse af klassifikationen" unit="" values="" default="&lt;memo&gt;"/>
+				</TaggedValues>
+			</Stereotype>
+		</Stereotypes>
+		<TaggedValueTypes/>
+	</Content>
+</UMLProfile>
