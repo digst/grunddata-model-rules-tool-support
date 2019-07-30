@@ -12,6 +12,6 @@ Af konkrete, anvendelige ressourcer findes disse:
 * Grunddata-projekt-filen
 * Modeltjekkeren
 
-Læs mere udførligt om disse ressourcer på deres respektive sider, og brug kommentarfunktionen til spørgsmål og diskussion.
+Læs mere udførligt om disse ressourcer på deres respektive sider.
 
  
