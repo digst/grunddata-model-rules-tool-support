@@ -11,4 +11,4 @@ Inden for de nærmeste uger vil alle maskinunderstøttede tjeks være tilgængel
 
 Tjekkeren indeholder en kortfattet anvendelsesbeskrivelse - yderligere spørgsmål og kommentarerer må meget gerne placeres på denne side.
 
-Link: https://data.gov.dk/modeltjekker/
+
