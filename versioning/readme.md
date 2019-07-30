@@ -7,28 +7,28 @@ Domænemodellerne versioneres, når de godkendes til indlemmelse i den samlede m
 
 Vurderingen af godkendelsesproces og versionsnummeret følger af principperne bag Semantic Versioning, hvor effekten på et produkt, som er afhængigt af det versionerede produkt afgør ændringens størrelse. Altså: Hvis tjenesterne på Datafordeleren skulle versioneres efter Semantic Versioning, kunne effekten på databrugerne ['de opdager det ikke', 'de kan mere end de kunne før', 'de kan ikke længere noget som de kunne før'] afgøre om ændringen af tjenesten er stor, lille, eller ubetydelig og hvem der skal godkende den.
 
-#Ændringens størrelse:
+# Ændringens størrelse:
 
 Der anvedes tre størrelser af ændringer: Major, Minor og Patch. 
 
 Tjenester på datafordeleren er det produkt, som umiddelbart afhænger af datamodellene, så det er effekten på tjenesterne, som afgør modelændringens størrelse:
 
-##MAJOR: Opdatering af tjenester er nødvendig 
+## MAJOR: Opdatering af tjenester er nødvendig 
 Gamle tjenester kan ikke ”finde” nødvendige model-elementer i opdateret model
 En ikke-bagud-kompatibel ændring
 Godkendes af programkoordinationen
 
-##MINOR: Opdatering af tjenester er mulig men ikke nødvendig
+## MINOR: Opdatering af tjenester er mulig men ikke nødvendig
 Der er kun tilføjet model-elementer i modellen
 En bagud-kompatibel ændring
 Gamle tjenesteversioner kan vedblive at eksistere
 Godkendes af modelsekretariatet i samråd med arktitekturforum
 
-##PATCH: Tjenester uændrede
+## PATCH: Tjenester uændrede
 Fx opdateret dokumentation
 Godkendes af modelsekretariatet
 
-#Versionering i navngivning
+# Versionering i navngivning
 
 Modellerne tildeles versionsnumre med de tre ændringsstørrelser:Major.Minor.Patch
 
