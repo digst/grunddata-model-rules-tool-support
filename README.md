@@ -14,4 +14,12 @@ Af konkrete, anvendelige ressourcer findes disse:
 
 Læs mere udførligt om disse ressourcer på deres respektive sider.
 
- 
+Øvrige nyttige links:
+https://data.gov.dk/model/info.htm
+https://data.gov.dk/model/
+http://grunddata.dk/
+http://arkitekturguiden.digitaliser.dk/grunddata-modelregler
+https://data.gov.dk/modelafleveringsproces/
+https://data.gov.dk/model/version.htm
+https://datafordeler.dk/vejledning/datamodel/
+https://www.omg.org/spec/UML/About-UML/#docs-informative-supporting 
