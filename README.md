@@ -18,8 +18,8 @@ Læs mere udførligt om disse ressourcer på deres respektive sider.
 * https://data.gov.dk/model/info.htm
 * https://data.gov.dk/model/
 * http://grunddata.dk/
-* http://arkitekturguiden.digitaliser.dk/grunddata-modelregler
+* https://datafordeler.dk/vejledning/datamodel/
 * https://data.gov.dk/modelafleveringsproces/
 * https://data.gov.dk/model/version.htm
-* https://datafordeler.dk/vejledning/datamodel/
 * https://www.omg.org/spec/UML/About-UML/#docs-informative-supporting 
+* http://arkitekturguiden.digitaliser.dk/grunddata-modelregler (NB: arkitekturguiden bliver ikke længere opdateret, men modelreglerne kan downloades fra https://datafordeler.dk/vejledning/datamodel/
