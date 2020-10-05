@@ -1,0 +1,188 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en">
+<head>
+
+<meta http-equiv="Content-Type" content="text/html charset=UTF-8"/>
+
+	
+
+	<link href='https://fonts.googleapis.com/css?family=Ubuntu:400,700'
+		rel='stylesheet' type='text/css'/>
+		<link rel="shortcut icon" type="image/x-icon"
+			href="https://digitaliser.dk/resource/480898/artefact/favkage.ico"/>
+	
+			<!-- jQuery File -->
+			<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.js"></script>
+<script src="http://code.jquery.com/ui/1.9.1/jquery-ui.js"></script>
+
+<link href="../grunddata.css" type="text/css" rel="stylesheet"/>
+
+<style>
+
+</style>
+
+  <link href="http://code.jquery.com/ui/1.11.4/themes/start/jquery-ui.css" rel="stylesheet"/>
+  
+      <script src="http://code.jquery.com/ui/1.11.4/jquery-ui.js"></script>
+ 	<script src="underscore-min.js"></script>
+
+			<script src="tjekker.js" type="text/javascript" language="JavaScript"></script>
+<link rel="shortcut icon"  href="../favicon.ico" /> 
+<title>Grunddata - Modeltjekker</title>
+</head>
+
+
+
+
+
+<body style="font-family: Arial; border: 0 none;" onload="klar()">
+	<img style="right: 2%; z-index: 3; position: absolute;" src="../logo.png" />
+		<div style="display: none" id="AJAXlog"></div>
+	<div class="betablink" style="position:absolute;">&beta;</div>
+	<div id="container">
+	<div id="sludrbox" class="kasse ui-widget-content ui-corner-all"
+			style="position: relative; left: 10%; top: 5%; width: 80%;z-index:2000;">
+			<h3 class="ui-widget-header ui-corner-all">Grunddata-modeltjekkeren</h3>
+			<div id="snak" style="position:relative;height:3em;overflow:hidden" >
+				Grunddata-modeltjekkeren kan teste en UML-model for overholdelse af 
+				<a href="http://arkitekturguiden.digitaliser.dk/grunddata-modelregler">grunddata modelreglerne</a><br/> 
+				Bemærk, at modeltjekkeren er i &beta; - der kommer flere regler i listen snart.
+				<br/>Generelt er der masser af muligheder for, at tjekkeren rapporterer falsk positive samt falsk negative reultater - <i>proceed with caution!</i> 
+				<ul>
+				<li>Upload en UML-model, gemt som XMI ved hjælp af knappen 'Browse...'</li>
+				<li>Vælg en eller flere (med Ctrl) regler fra listen - brug evt. knappen 'Vælg alle'</li>
+				<li>Klik 'Tjek' - så kommer der en rapport, hvis der er noget i vejen med din model - ellers sker der ingenting (hurra)</li>
+				</ul>
+				<button id="showme" style="position:absolute;bottom:0em;right:0em;background-color:#2191C0;color:white;padding:0.2em;cursor: pointer;border-radius: 5px;" id="shovme"> Vis mere </button>
+			</div>
+			
+		</div>
+		<input style="position:relative;top:3.5em;left:4em" type="file" id="inputter" onchange="indlaes(this.files)" class="inputter"></input>
+		
+	<div style="display: flex;position:relative;top:4em;left:3em;" class="butbox">
+		
+			
+	
+			<select multiple="multiple" id="selector" class="selector">
+							<optgroup
+					label="Regel 5.1:MODELLER SKAL UDARBEJDES SOM UML-KLASSEDIAGRAMMER">
+					<option value="XMIver">UML-version skal være 2.4.1 så XMI version skal være 2.4.1</option>
+				</optgroup>
+				<optgroup label="Regel 5.2: UML-MODELLEN SKAL ORGANISERES I PAKKER">
+					<option value="public">Element-scope skal være ‘public’</option>
+				</optgroup>
+				<optgroup
+					label="Regel 5.4: ATTRIBUTTER OG RELATIONER SKAL MODELLERES FYLDESTGØRENDE">
+					<option value="exptype">Attributter skal modelleres med
+						eksplicit type</option>
+				</optgroup>
+				<optgroup label="Regel 5.6: UML-STEREOTYPER SKAL ANVENDES">
+					<option value="stereo">Alle UML-elementer skal tildeles en
+						UML-stereotype</option>
+				</optgroup>
+				<optgroup label="Regel 5.9: DATAMODELLEN SKAL DOKUMENTERES">
+					<option value="dokutags">Klasser, attributter og
+						roller/associationsender dokumenteres ved brug af tagged values</option>
+				</optgroup>
+				<optgroup label="Tools">
+					<option value="dokumenter">Udskriv alle dokumentations-tags</option>
+				</optgroup>
+
+
+
+<!-- 
+	
+
+				
+				<optgroup
+					label="Regel 5.4: ATTRIBUTTER OG RELATIONER SKAL MODELLERES FYLDESTGØRENDE">
+					
+					<option value="2">Attributter skal angive multiplicitet</option>
+					<option value="2">Relationer mellem UML-elementer skal
+						modelleres med navn, læseretning, navigabilitet, navngiven
+						rolle/relations-ende samt multiplicitet</option>
+				</optgroup>
+
+				<optgroup
+					label="Regel 5.5: STANDARDISEREDE DATATYPER SKAL GENBRUGES">
+				<option value="2">
+					Alle attributter skal enten tildeles en standardiseret datatype
+					eller en datatype, der er modelleret som et UML-element i samme
+					eller en anden pakke."
+					</option>
+				</optgroup>
+
+				
+
+				<optgroup label="Regel 5.7: NAVNGIVNINGSREGLER SKAL FØLGES">
+					<option value="2">Klasser og associationer skal navngives
+						entydigt inden for deres pakke.</option>
+					<option value="2">Elementer som repræsenterer
+						forvaltningsobjekter, som er datatyper, klassifikationer,
+						enumerationer eller kodelister navngives med “UpperCamelCase”</option>
+					<option value="2">Attributter, associationer og
+						relationsender navngives med “lowerCamelCase”</option>
+				</optgroup>
+				<optgroup label="Regel 6.1: ALLE MODELENTITETER SKAL MODELLERES MED PERSISTENT, UNIK IDENTIFIKATION">
+					<option value="2">Alle entiteter skal modelleres med
+						attributten ‘id’, med typen Identifikation</option>
+				</optgroup>
+						<optgroup label="Regel 6.2: ALLE MODELENTITETER SKAL MODELLERES MED STATUS">
+							<option value="2">Alle modelentiteter skal have
+								attributten ‘status’</option>
+						</optgroup>
+						<optgroup
+							label="Regel 6.3: ALLE MODELENTITETER SKAL UNDERSTØTTE DOBBELTHISTORIK OG ANGIVELSE AF AKTØRER">
+							<option value="2">Hver modelentitet skal have
+								attributterne registreringFra, registreringTil, virkningFra og
+								virkningTil.</option>
+							<option value="2">Hver modelentitet skal have
+								attributterne registreringsaktør og virkningsaktør</option>
+						</optgroup>
+
+						<optgroup
+							label="Regel 6.4: ALLE MODELENTITETER BØR UNDERSTØTTE BESKEDFORDELING">
+							<option value="2">Hver modelentitet med stereotypen
+								DKObjekttype - modsvarende et forretningsobjekt - kan modelleres
+								med attributterne forretningsområde, forretningshændelse og
+								forretningsproces</option>
+						</optgroup>
+	 -->
+	 	</select>
+<button style="align-self: flex-start;" id="foldSelect" >fold ned</button>
+
+<button style="align-self: flex-end;" id="alleknap" onclick= "vaelgalt()">Vælg alle</button>			
+ 
+<button style="align-self: flex-end;" id="startknap" onclick="koer()">Tjek</button>
+
+
+	</div>
+	<div style="position:relative;top:4em;overflow:auto;height:70%;width:80%;left:4em" id="badabim">  . </div>
+<div id="toolpublic" class="vaek">
+<h4>Alle elementer skal have Public visibility</h4>
+Så kan de nemlig genbruges af andre modeller.
+
+<img src="public.png"/>
+</div>
+
+<div id="tooldokutags" class="vaek">
+<h4>Brug tagged values til at dokumentere modellen</h4>
+Som minimum skal tagget 'definition' være udfyldt
+</div>
+
+<div id="toolXMIver" class="vaek">
+<h4>Brug XMI version 2.4.1</h4>
+Når modellen exporteres som XMI vælges Publish
+<br/><img src="xmi1.png"/>
+<br/>og derefter UML 2.4.1 (XMI 2.4.1)
+<br/><img src="xmi2.png"/>
+</div>
+
+<div id="toolstereo" class="vaek">
+<h4>Der er fejl i nogle af modellens tildelinger af stereotyper</h4>
+Se mere om stereotyper på <a target="_top" href="http://digitaliser.dk">Digitaliser</a>
+<p>Særligt tricky er tildelingen af stereotyper på associationsender - de følger ikke med, selv om man bruger grunddata-toolboksen - man skal vælge de enkelte ender i associationenes dialogbox og vælge stereotyper for hver af dem</p>
+</div>
+</div></body>
+</html>
+
