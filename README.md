@@ -6,7 +6,6 @@ Dette gøres dels ved at samarbejde med delprogrammernes arkitekter og modellør
 
 Af konkrete, anvendelige ressourcer findes disse:
 
-* Grunddata modelregler
 * Grunddata UML-profilen
 * Grunddata MDG-teknologi
 * Grunddata-projekt-filen
@@ -22,4 +21,4 @@ Læs mere udførligt om disse ressourcer på deres respektive sider.
 * https://data.gov.dk/modelafleveringsproces/
 * https://data.gov.dk/model/version.htm
 * https://www.omg.org/spec/UML/About-UML/#docs-informative-supporting 
-* http://arkitekturguiden.digitaliser.dk/grunddata-modelregler (NB: arkitekturguiden bliver ikke længere opdateret, men modelreglerne kan downloades fra https://datafordeler.dk/vejledning/datamodel/
+* https://datafordeler.dk/vejledning/datamodel/
